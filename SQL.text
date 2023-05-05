@@ -1,0 +1,182 @@
+SQL DATA TYPES
+
+1. NUMARIC DATA TYPES
+
+==>  1. TINYINT
+==>  2. SMALLINT
+==>  3. MEDIUMINT
+==>  4. INT
+==>  5. BIGINT
+==>  6. FLOAT
+==>  7. DOUBLE
+
+2. STRING DATA TYPES
+
+==>  1. CHAR
+==>  2. VARCHAR
+
+3. BINARY AND VARBINARY
+
+==>  1. BINARY
+==>  2. VARBINARY
+
+4. BLOB AND TEXT DATA TYPES
+
+BLOB
+
+==>  1. TINYBLOB
+==>  2. MEDIUMBLOB
+==>  3. LONGBLOB
+
+TEXT
+
+==>  1. TINYTEXT
+==>  2. MEDIUMTEXT
+==>  3. LONGTEXT
+
+5. DATE DATA TYPES
+
+==>  1. DATE(YYY-MM-DD)
+==>  2. DATETIME(YYY-MM-DD HH:MM:SS)
+==>  3. TIMESTAMP(YYYMMDDHHMMSS)
+==>  4. TIME(HH:MM:SS)
+
+6. MISC DATA TYPES
+
+==>  1. ENUM(value_1,value_2....,etc)
+==>  2. SET
+
+=======================================================================================================================
+
+SQL CONSTRAINT
+
+1. NOT NULL CONSTRAINT :- 
+                            Enshure that a column canot have a NULL value.
+
+2. DEFAULT CONSTRAINT :- 
+                            Provide a default value for a column when none is specified.
+
+3. UNIQUE CONSTRAINT :- 
+                            Enshure that all the values in a column are different.
+
+4. PRIMARY KEY :- 
+                            Uniquely identifies each row/record in a database. 
+
+5. FOREIGN KEY :- 
+                            Uniquely identifies a row/record in any another database table
+
+6. CHECK CONSTRAINT :- 
+                            The CHECK CONSTRAINT enshure that all values in a column satisfy certain condition. 
+
+7. INDEX :- 
+                            Used to create and retrive data from the database very quickly.
+
+=======================================================================================================================
+DATABASE CREATION
+
+1. create database
+
+SYNTAX :-
+
+==>  CREATE DATABASE dbname;
+
+2. drop database
+
+SYNTAX :-
+
+==>  DROP DATABASE dbname;
+
+3. if exists
+
+SYNTAX :-
+
+==>  DROP DATABASE IF EXISTS dbname;
+
+4. not exists
+
+SYNTAX :-
+
+==>  CREATE DATABASE IF NOT EXISTS dbname;
+
+5. SHOW ALL DATABASE
+
+SYNTAX :-
+
+==> SHOW DATABASES
+
+======================================================================================================================
+
+TABLE CREATION
+
+1. CREATE TABLE
+
+SYNTAX :-
+
+==> CREATE TABLE table_name(column_name column_type); 
+
+=========================================================================================================================
+
+INSERT VALUE IN TABLE
+
+1. using field
+    
+    SYNTAX :-
+
+    ==> INSERT INTO table_name(field1, field2,...fieldN) VALUES(value_1, value_2, value_3);
+
+2. witout using field
+
+    SYNTAX :-
+
+    ==> INSERT INTO table_name VALUES(value_1, value_2, value_3);
+
+========================================================================================================================
+
+SELECT TABLE SHOW TABLE
+
+==> 1. for select specific field
+
+    SYNTAX :- 
+
+    ==> SELECT column_name1, column_name2 FROM table_name [WHERE conditions];
+
+==> 2. for all field
+
+    SYNTAX :-
+
+    ==> SELECT * FROM table_name [WHERE conditions];
+
+========================================================================================================================
+
+IN and NOT IN 
+
+1. IN
+
+    ==> SELECT * FROM table_name  WHERE column_name IN(value_1, value_2,.....value_N);
+
+2. NOT IN
+
+    ==> SELECT * FROM table_name  WHERE column_name NOT IN(value_1, value_2,.....value_N);
+
+=========================================================================================================================
+
+IS NULL and IS NOT NULL
+
+1. NULL 
+
+    ==> SELECT * FROM table_name  WHERE column_name IS NULL;
+
+2. NOT NULL
+
+    ==> SELECT * FROM table_name  WHERE column_name IS NOT NULL;
+
+=========================================================================================================================
+
+ORDER BY clause
+
+    ==> SELECT * FROM table_name WHERE ORDER BY column_A ASC|DESC, column_B ASC|DESC, ......
+
+LIMIT clause
+
+    ==> SELECT * FROM table_name ORDER BY column LIMIT __ ;
+    

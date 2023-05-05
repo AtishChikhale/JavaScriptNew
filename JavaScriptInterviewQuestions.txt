@@ -1,0 +1,70 @@
+                         JavaScript 
+
+What is JavaScript?
+What are the data types supported by JavaScript?
+What is the difference between null and undefined in JavaScript?
+What is the difference between let, const, and var in JavaScript?
+What is closure in JavaScript and how does it work?
+What is the difference between synchronous and asynchronous code in JavaScript?
+What is the purpose of the “use strict” statement in JavaScript?
+What is the purpose of the "this" keyword in JavaScript?
+What is the difference between == and === operators in JavaScript?
+How can you check if a variable is an array in JavaScript?
+What is hoisting in JavaScript?
+What is event bubbling in JavaScript?
+What is event delegation in JavaScript?
+What is the difference between call and apply methods in JavaScript?
+What is the difference between a function declaration and a function expression in JavaScript?
+What is the difference between map, filter, and reduce in JavaScript?
+What is a callback function in JavaScript?
+What are promises in JavaScript?
+What is the difference between promises and callbacks in JavaScript?
+How does inheritance work in JavaScript?
+
+
+                                Cypress
+
+What is Cypress?
+What are the advantages of using Cypress for web application testing?
+How do you install Cypress?
+What are the different types of Cypress commands?
+How do you write a Cypress test case?
+What is the role of fixtures in Cypress?
+How do you debug a Cypress test case?
+What is the difference between a test runner and a test framework?
+How do you handle asynchronous behavior in Cypress?
+What is the role of hooks in Cypress?
+How do you set up and use custom commands in Cypress?
+How do you handle multiple environments in Cypress?
+What is the role of plugins in Cypress?
+What is the role of the Cypress Dashboard?
+How do you integrate Cypress with a Continuous Integration (CI) tool?
+What are the best practices for writing Cypress tests?
+How do you handle cross-browser testing in Cypress?
+How do you handle mobile testing in Cypress?
+What are the limitations of Cypress?
+How do you handle page objects in Cypress?
+
+
+                        SQL
+
+What is SQL?
+What are the different types of SQL commands?
+What is a database?
+What is a table in SQL?
+What is a primary key in SQL?
+What is a foreign key in SQL?
+What is normalization in SQL?
+What is the difference between a join and a subquery in SQL?
+What is an index in SQL?
+What is a view in SQL?
+What is a stored procedure in SQL?
+What is a trigger in SQL?
+What is the difference between DELETE and TRUNCATE in SQL?
+What is the difference between GROUP BY and HAVING in SQL?
+What is the difference between INNER JOIN and OUTER JOIN in SQL?
+What is the difference between UNION and UNION ALL in SQL?
+What is a self join in SQL?
+What is the difference between a clustered and non-clustered index in SQL?
+What is the difference between a transaction and a batch in SQL?
+What are some best practices for writing SQL queries?
